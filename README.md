@@ -2,7 +2,7 @@
  
 This package lets you easy authorize ComponentType from inspector.
 
-Since ComponentType isn't serializable struct there is no possible to use custom property drawer. But ComponentType is just 2 simple fields: int TypeIndex and enum AccessMode. To be able to serialize this data package uses ComponentTypeContainer which is just struct holding int TypeIndex and can be implicetelly converted to ComponentType. So speaking truth package provides property drawer for ComponentTypContainer.
+Since ComponentType isn't serializable struct there is no possible to use custom property drawer. But ComponentType is just 2 simple fields: int TypeIndex and enum AccessMode. To be able to serialize this data package uses ComponentTypeContainer which is just struct holding int TypeIndex and can be implicetelly converted to ComponentType. So frankly speaking package provides property drawer for ComponentTypContainer.
 
 By default you can select any type which implements any of these interfaces
 * `IComponentData`
