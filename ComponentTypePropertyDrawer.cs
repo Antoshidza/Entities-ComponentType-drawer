@@ -16,7 +16,7 @@ namespace TonyMax.Entities.Extensions.ComponentTypeDrawer
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             EditorGUI.BeginProperty(position, label, property);
-            EditorGUI.PrefixLabel(position, new GUIContent(property.name));
+            EditorGUI.PrefixLabel(position, new GUIContent(property.displayName));
 
             //Lazy type list initialization
             if(_typeList == null)
