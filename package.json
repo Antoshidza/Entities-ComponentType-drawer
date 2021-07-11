@@ -1,0 +1,16 @@
+{
+  "name": "com.tonymax.entities.extensions.component-type-drawer",
+  "version": "1.0.0",
+  "displayName": "ComponentType drawer",
+  "description": "Lets you easy set ComponentType from editor",
+  "unity": "2020.2",
+  "dependencies": {
+    "com.unity.entities": "0.17.0-preview.41"
+  },
+  "author": {
+    "name": "Anton Chernykh",
+    "email": "antoshidza@mail.ru"
+  },
+  "type": "tool",
+  "hideInEditor": false
+}
